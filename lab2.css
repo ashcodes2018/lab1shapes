@@ -1,0 +1,135 @@
+#container a{
+	display: flex;
+ 	justify-content: space-between;
+ 	flex-direction: column;
+ 	padding-left:5px;
+}
+
+#navbar a{
+	color: #69696a;
+	text-decoration: none;
+	margin: 5px 5px;
+}
+
+#hire{
+	background-color: #000;
+    padding: 10px 25px;
+    margin: 0px;
+    border-radius: 50px;
+    color: white !important;
+    text-align: center;
+}
+
+#gibberish{
+	
+	padding-left: 10px;
+	position: relative;
+	color:#69696a; 
+}
+
+#gibberishheader{
+	color: black;
+}
+
+#gibberish p{
+	border-left: 2px solid #69696a;
+	padding-left: 10px;
+}
+
+p a{
+	padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width:100%;
+    background-color: #000;
+    border-radius: 50px;
+    color: white !important;
+}
+
+@media all and (min-width:768px){
+	#navbar{
+	padding:2px 20px 20px 20px;
+	display:flex;
+
+}
+#navbar a{
+	margin-right: 10px;
+	color: #69696a;
+	text-decoration: none;
+}
+
+#container{
+	display: flex;
+	justify-content: space-between;
+
+
+}
+#image{
+	float: right;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	padding-left: 10px;
+	margin-right: 20px;
+
+}
+#pink{
+	
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(247,136,167,0.6);
+	width:150px;
+	height:150px;
+    border-radius:85px; 
+    padding: 10px; 
+    text-align: center;
+}
+
+#purple{
+		
+	position: absolute;
+	top:25px;
+	right: 0px;
+	background-color: rgba(207,130,213,0.6); 
+	width:50px;
+	height: 50px;
+    border-radius: 35px; 
+    padding: 10px; 
+    text-align: center;
+    margin: 0 10px;
+}
+
+#orange{
+	
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	background-color: rgba(247,193,162,0.7);
+	width:100px;
+	height: 100px;
+    border-radius: 65px; 
+    padding: 10px; 
+    text-align: center;
+
+}
+
+p a{
+	padding: 0px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 45%;
+    margin-top: 281px;
+    background-color: #000;
+    border-radius: 50px;
+    clear: both;
+    position: relative;
+    bottom: 20px;
+    color: white;
+    height: 27px;
+    width: 104px;
+
+
+}
